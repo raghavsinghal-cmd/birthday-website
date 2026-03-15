@@ -28,6 +28,10 @@ if(document.getElementById("typewriter")){
 typeWriter();
 }
 
-function confetti(){
-alert("🎉 Happy Birthday ❤️ 🎉");
+function confetti() {
+  confetti({
+    particleCount: 200,
+    spread: 100,
+    origin: { y: 0.6 }
+  });
 }
